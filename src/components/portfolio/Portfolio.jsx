@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../portfolio/portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
@@ -6,6 +6,8 @@ import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const data = [
   {
@@ -50,12 +52,15 @@ const data = [
 ]
 
 const Portfolio = () => {
+  useEffect( () => {
+    Aos.init({ duration: 1500 });
+  }, []);
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
-      <div className="container portfolio__container">
+      <div data-aos="fade-out" className="container portfolio__container">
         {
         data.map(({id,image,title,link,btn}) => {
             return (
