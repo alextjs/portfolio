@@ -14,7 +14,7 @@ const Services = () => {
       <h2>Services</h2>
 
       <div className="container services__container">
-        <article data-aos="slide-right" className='service'>
+        <article data-aos="flip-right" className='service'>
           <div className="service__head">
             <h3>UI/UX Design</h3>
           </div>
@@ -42,7 +42,7 @@ const Services = () => {
             </li>
           </ul>
         </article>
-        <article data-aos="slide-up" className='service'>
+        <article data-aos="flip-up" className='service'>
           <div className="service__head">
             <h3>Web Development</h3>
           </div>
@@ -70,7 +70,7 @@ const Services = () => {
             </li>
           </ul>
         </article>
-        <article data-aos="slide-left" className='service'>
+        <article data-aos="flip-left" className='service'>
           <div className="service__head">
             <h3>Content Creation</h3>
           </div>
