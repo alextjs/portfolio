@@ -17,23 +17,23 @@ import 'swiper/css/navigation';
 const data = [
   {
     avatar: AVTR1,
-    name: 'Tina Snow',
-    review: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ea reiciendis itaque sint, accusantium nisi quo, magni voluptatem, porro consectetur praesentium. Molestias enim, magni numquam dolores aspernatur impedit molestiae illo.'
+    name: 'Tina',
+    review: 'Working with Alexandru was better than expected and we had really high expectations. He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. Time after time, and without us asking, he added enhancements and improvements that resulted in a better end product for us and our clients.'
   },
   {
     avatar: AVTR2,
-    name: 'Shatta Wale',
-    review: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ea reiciendis itaque sint, accusantium nisi quo, magni voluptatem, porro consectetur praesentium. Molestias enim, magni numquam dolores aspernatur impedit molestiae illo.'
+    name: 'Wale',
+    review: 'We have the fortune of working with Alexandru on a very regular basis. Every single project is done in a timely fashion and is delivered exactly as is outlined. Beyond that, his development skills and expertise make him an invaluable part of our process. We absolutely offer our highest possible recommendation.'
   },
   {
     avatar: AVTR3,
-    name: 'Kwame Despite',
-    review: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ea reiciendis itaque sint, accusantium nisi quo, magni voluptatem, porro consectetur praesentium. Molestias enim, magni numquam dolores aspernatur impedit molestiae illo.'
+    name: 'Arnold',
+    review: 'Alexandru has done a fantastic job overall. Not only the site is to design, the code is very clean and slick. Love the way he achieved the translations portion of the site.'
   },
   {
     avatar: AVTR4,
-    name: 'Nancy McBrown',
-    review: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ea reiciendis itaque sint, accusantium nisi quo, magni voluptatem, porro consectetur praesentium. Molestias enim, magni numquam dolores aspernatur impedit molestiae illo.'
+    name: 'Nancy',
+    review: "Alexandru's talent and experience proved immensely valuable for our latest web project. He was involved from the very beginning, providing advice and guidance even before we signed the proposal. The work we received from him was top-notch, thoroughly documented, and full of touches that show his commitment to quality. I can't recommend him highly enough."
   },
 ]
 

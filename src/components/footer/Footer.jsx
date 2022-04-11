@@ -1,6 +1,7 @@
 import React from 'react'
 import './footer.css'
 import {FiInstagram} from 'react-icons/fi'
+import {FaFacebookMessenger} from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -19,6 +20,8 @@ const Footer = () => {
 
       <div className="footer__socials">
         <a href="https://www.instagram.com/alexturcan_/" target='_blank'><FiInstagram/></a>
+        <a href="https://www.facebook.com/profile.php?id=100005877218705" target='_blank'><FaFacebookMessenger/></a>
+
       </div>
 
       <div className="footer__copyright">

@@ -44,7 +44,7 @@ const About = () => {
             </article>
           </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolores qui debitis excepturi culpa sed dicta eaque iure! Optio sed at quae alias consectetur voluptatibus placeat possimus sit in eum.</p>
+          <p>Since beginning my journey as a freelance Front End Developer nearly 2 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my skills.</p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
