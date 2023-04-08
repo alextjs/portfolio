@@ -4,8 +4,11 @@ import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG7 from '../../assets/wing-kingz.jpg'
+import IMG8 from '../../assets/build-my-kitchen.jpg'
+import IMG9 from '../../assets/lambo.jpg'
+import IMG10 from '../../assets/electrical.jpg'
+import IMG11 from '../../assets/djmoore-loft.jpg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
@@ -16,6 +19,51 @@ const data = [
     title: 'CitizenShipper - Get Shipping Quotes for Pets, Motorcycles.',
     link: 'https://citizenshipper.com/',
     btn: 'Citizenshipper'
+
+  },
+
+  {
+    id: 7,
+    image: IMG7,
+    title: 'Wing Kingz: Diner-Inspired Dishes, Sports & Cold Beer.',
+    link: 'https://www.thewingkingz.co.uk/',
+    btn: 'Wing Kingz'
+
+  },
+
+  {
+    id: 8,
+    image: IMG8,
+    title: 'Build My Kitchen: Kitchens Milton Keynes, Kitchen Fitters.',
+    link: 'https://www.buildmykitchen.co.uk/',
+    btn: 'Build My Kitchen'
+
+  },
+
+  {
+    id: 9,
+    image: IMG9,
+    title: 'Luxury Car Hire, Supercar Hire, Prestige Car Hire - Royal Rentals.',
+    link: 'https://www.royalrental.co.uk/',
+    btn: 'Royal Rental'
+
+  },
+
+  {
+    id: 10,
+    image: IMG10,
+    title: 'Heath Electrical Services',
+    link: 'https://www.heathelectricalservices.com/',
+    btn: 'Heath Electrical Services'
+
+  },
+
+  {
+    id: 11,
+    image: IMG11,
+    title: 'DJ Moore Lofts',
+    link: 'https://www.djmoorelofts.co.uk/',
+    btn: 'DJ Moore Lofts'
 
   },
 
@@ -42,13 +90,9 @@ const data = [
     btn: 'CCLoftConversion'
 
   },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Ship Fruits to office',
-    link: 'https://www.fructelabirou.md/',
-    btn: 'Fruitstoffice'
-  }
+
+
+
 ]
 
 const Portfolio = () => {
